@@ -1,0 +1,25 @@
+
+.btn {
+    padding: 1rem 2rem;
+    color: var(--clr-dark);
+    font-weight: bold;
+
+    &:hover,
+    &:focus {
+        color: var(--clr-primary);
+    }
+
+    &--primary {
+        color: #fff;
+        background-color: var(--clr-primary);
+        border-radius: .7rem;
+        transition: all .2s ease-in-out;
+
+        &:hover,
+        &:focus {
+            background-color: transparent;
+            box-shadow: inset 0px 0px 0px 1px var(--clr-primary);
+        }
+    }
+
+}
