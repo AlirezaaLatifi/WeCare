@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WeCare - Home Page</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/PJ-favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/WeCare.ico" type="image/x-icon">
     <!-- FontAwsome -->
     <script src="https://kit.fontawesome.com/660edb983a.js" crossorigin="anonymous"></script>
     <!-- Styles -->
     <link rel="stylesheet" href="styles/css/main.css">
 
 </head>
+
 <body>
     <!-- header start -->
     <header class="header">
         <div class="container">
             <div class="navbar">
-                <a href="#"><img class="header__logo" src="assets/pj logo.png" alt="website's logo"></a>
+                <a href="#"><img class="header__logo" src="assets/WeCare-Logo.png" alt="website's logo"></a>
                 <div class="responsive-menu">
                     <input class="responsive-menu__toggle" type="checkbox" name="" id="">
                     <button class="responsive-menu__btn"><i class="fa-solid fa-bars"></i></button>
@@ -38,15 +40,16 @@
             <div class="hero">
                 <div class="hero__content">
                     <h1 class="hero__title">Feel better about<br>finding healthcare</h1>
-                    <p class="hero__des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, natus! Delectus iure beatae optio dicta sapiente! Natus minus earum error!</p>
+                    <p class="hero__des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, natus! Delectus
+                        iure beatae optio dicta sapiente! Natus minus earum error!</p>
                     <div class="hero__properties">
                         <div class="hero__property">
-                            <i class="fa-brands fa-amilia fa-2x"></i>
-                            <p>Lorem ipsum dolor sit amet dolor sit.</p>
+                            <img src="https://img.icons8.com/external-victoruler-linear-colour-victoruler/50/000000/external-doctor-cosmetic-surgery-victoruler-linear-colour-victoruler.png"/>
+                            <p>Profiles for Every Doctor in America.</p>
                         </div>
                         <div class="hero__property">
-                            <i class="fa-brands fa-blogger-b fa-2x"></i>
-                            <p>Lorem ipsum dolor sit amet dolor sit.</p>
+                            <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/50/000000/external-like-web-flaticons-lineal-color-flat-icons-3.png"/>
+                            <p>More Than 10 Million Patient Ratings</p>
                         </div>
                     </div>
                 </div>
@@ -56,5 +59,46 @@
     </header>
     <!-- header end -->
 
+    <!-- search start -->
+    <section class="search">
+        <div class="container search__wrapper">
+            <div class="search__box">
+                <div class="search__inputs-wrapper">
+                    <div class="search__inputs">
+                        <label for="">
+                            <img src="https://img.icons8.com/material-outlined/30/000000/stethoscope.png"/>
+                            <input class="search__input" type="text"
+                                placeholder="Search Doctors, Conditions or Prodecures">
+                        </label>
+                        <label for="">
+                            <img src="https://img.icons8.com/material-outlined/30/000000/marker.png" />
+                            <input class="search__input" type="text" placeholder="Set your location">
+                        </label>
+
+
+                    </div>
+                    <button class="btn btn--primary search__btn"><i
+                            class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+                </div>
+                <div class="search__suggestions">
+                    <h3 class="search__suggestions-title">You may be looking for</h3>
+                    <div class="search__tags">
+                        <button class="search__tag">Family Medicine <i class="fa-solid fa-xmark"></i> </button>
+                        <button class="search__tag">Top Hispital <i class="fa-solid fa-xmark"></i> </button>
+                        <button class="search__tag">COVID-19 <i class="fa-solid fa-xmark"></i> </button>
+                        <button class="search__tag">Top Hispital <i class="fa-solid fa-xmark"></i> </button>
+                        <button class="search__tag">Family Medicine <i class="fa-solid fa-xmark"></i> </button>
+                        <button class="search__tag">Orthopedic Surgery <i class="fa-solid fa-xmark"></i> </button>
+                        <button class="search__tag">Family Medicine <i class="fa-solid fa-xmark"></i> </button>
+                        <button class="search__tag">COVID-19 <i class="fa-solid fa-xmark"></i> </button>
+                        <button class="search__tag">More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- search end -->
+
 </body>
+
 </html>

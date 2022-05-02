@@ -1,0 +1,126 @@
+.search {
+
+    &__wrapper {
+        position: relative;
+        padding: 50rem 0;
+    }
+
+    &__box {
+        width: 90%;
+        padding: 3rem;
+        background-color: white;
+        border-radius: 1rem;
+        position: absolute;
+        top: -16rem;
+        left: 5%;
+        box-shadow: 0px 15px 44px 0px #edf6ff;
+
+        @media (max-width: 500px) {
+            width: 100%;
+            left: 0;
+        }
+    
+    }
+
+    &__inputs-wrapper {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 2.5rem;    
+
+        @media (max-width: 500px) {
+            flex-direction: column;
+        }
+
+    }
+
+    &__btn {
+        border: none;
+        padding: 2rem 2rem;
+
+        &:focus {
+            outline: none;
+        }
+
+        
+
+   
+    }
+
+    &__inputs {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+        width: 100%;
+
+        label {
+            position: relative;
+
+            img {
+                color: var(--clr-dark);
+                position: absolute;
+                top: 1.5rem;
+                left: 1rem;
+            }
+        }
+       
+    }
+
+    &__input {
+        padding: 2rem 2rem 2rem 5rem;
+        background-color: var(--clr-main-bg);
+        border: none;
+        box-shadow: inset 0 0 0 1px rgb(218, 218, 218);
+        border-radius: 1rem;
+        transition: all .2s ease-in-out;
+        width: 100%;
+
+        &:focus {
+            outline: none;
+            box-shadow: inset 0 0 0 1px var(--clr-primary);
+
+
+        }
+
+    }
+
+
+    &__suggestions-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    &__tags {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+
+      
+    }
+
+    &__tag {
+        white-space: nowrap;
+        padding: .5rem .7rem;
+        border: none;
+        border-radius: .3rem;
+        background-color: var(--clr-secondary);
+        color: var(--clr-dark);
+        font-weight: bold;
+
+        display: flex;
+        align-items: center;
+        gap: .7rem;
+
+        transition: all .2s ease-in-out;
+
+        &:hover,
+        &:focus {
+            background-color: rgb(205, 231, 255);
+        }
+
+        &:last-child {
+            color: rgb(23, 82, 192);
+        }
+
+
+    }
+}
