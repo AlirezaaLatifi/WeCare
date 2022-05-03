@@ -1,0 +1,109 @@
+.find {
+    padding: 5rem 0;
+
+    &__wrapper {
+        display: flex;
+        gap: 3rem;
+    }
+
+    &__img,
+    &__content {
+        width: 100%;
+    }
+
+    &__title {
+        color: var(--clr-dark);
+        font-size: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    &__desc {
+        color: var(--clr-light);
+        margin-bottom: 4rem;
+    }
+
+    &__item+&__item {
+        margin-top: 4rem;
+    }
+
+    &__list {
+        width: 75%;
+        padding-left: 5rem;
+
+    }
+
+    &__item {
+        position: relative;
+        cursor: pointer;
+       
+
+        h3 {
+            color: rgb(41, 41, 41);
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+
+        p {
+            color: var(--clr-light);
+        }
+
+        i {
+            position: absolute;
+            top: -5px;
+            left: -52px;
+            width: 40px;
+            height: 40px;
+            background-color: rgb(92, 8, 22);
+            border-radius: 10rem;
+            display: grid;
+            place-items: center;
+            transition: all .2s ease-out;
+        }
+
+        &:first-child i {
+            --clr-i: rgb(141, 7, 141);
+            --clr-bg: rgb(255, 215, 255);
+            color: var(--clr-i);
+            background-color: var(--clr-bg);
+        }
+
+        &:nth-child(2) i {
+            --clr-i: rgb(7, 92, 141);
+            --clr-bg: rgb(215, 234, 255);
+            color: var(--clr-i);
+            background-color: var(--clr-bg);
+        }
+
+        &:last-child i {
+            --clr-i: rgb(7, 141, 108);
+            --clr-bg: rgb(215, 255, 218);
+            color: var(--clr-i);
+            background-color: var(--clr-bg);
+        }
+
+        &:hover,
+        &:focus {
+
+            i {
+                box-shadow: inset 0 0 0 2px var(--clr-i);
+                background-color: #fff;
+            }
+
+        }
+
+    }
+
+    &__item+&__item {
+
+        &::before {
+            content: "";
+            width: 2px;
+            height: 80%;
+            background-color: #c3c3c3;
+            position: absolute;
+            top: -77px;
+            left: -33px;
+        }
+    }
+
+}
