@@ -22,4 +22,19 @@
         }
     }
 
+    &--secondary {
+        color: #fff;
+        background-color: var(--clr-dark);
+        border-radius: .7rem;
+        transition: all .2s ease-in-out;
+
+        &:hover,
+        &:focus {
+            color: var(--clr-dark);
+            background-color: transparent;
+            box-shadow: inset 0px 0px 0px 2px var(--clr-dark);
+        }
+
+    }
+
 }
