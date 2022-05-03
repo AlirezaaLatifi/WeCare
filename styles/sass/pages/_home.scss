@@ -1,10 +1,12 @@
 .find {
-    padding: 5rem 0;
+    padding: 6rem 0;
 
     &__wrapper {
         display: flex;
         gap: 3rem;
         align-items: center;
+
+       
     }
 
     &__img,
@@ -105,6 +107,36 @@
             top: -77px;
             left: -33px;
         }
+    }
+
+}
+
+
+@media (max-width: 1000px) {
+
+
+    .find {
+
+        padding-top: 10rem;
+
+        &__wrapper {
+            flex-direction: column;
+        }
+
+        &__img {
+           display: none;
+        }
+    
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+
+    .find__title {
+        font-size: 3.5rem;
     }
 
 }

@@ -1,18 +1,12 @@
 .search {
 
-    &__wrapper {
-        position: relative;
-        padding-bottom: 10rem;
-    }
 
     &__box {
         width: 90%;
         padding: 3rem;
         background-color: white;
         border-radius: 1rem;
-        position: absolute;
-        top: -16rem;
-        left: 5%;
+        margin-top: -15rem;
         box-shadow: 0px 15px 44px 0px #edf6ff;
 
         @media (max-width: 500px) {
