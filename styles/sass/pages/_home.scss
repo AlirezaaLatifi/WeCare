@@ -219,3 +219,103 @@
 
    
 }
+// Specialist end 
+
+
+
+
+// Feedback start
+
+.feedback {
+    padding: 5rem 0;
+
+
+    &__title {
+        font-size: 4rem;
+        text-align: center;
+        color: var(--clr-dark);
+        margin-bottom: 1rem;
+    }
+
+    &__desc {
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        color: var(--clr-light);
+        line-height: 2;
+        margin-bottom: 3rem;
+
+        @media (max-width: 733px) {
+            width: 100%;
+        }
+    }
+
+    &__box {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+        place-items: center;
+        justify-content: center;
+        
+        gap: 2rem;
+    }
+
+
+    &__content {
+
+        &:hover,
+        &:focus {
+            cursor: pointer;
+            .feedback__text {
+                color: var(--clr-dark);
+                text-shadow: 1px 1px 1px 5px red;
+            }
+        }
+    }
+
+
+    &__user {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 2rem;
+
+
+        img {
+            height: 8rem;
+            border-radius: 1rem;
+            background-color: rgb(42, 228, 166);
+        }
+
+        .feedback__user-info {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+
+            h4 {
+                color: var(--clr-dark);
+            }
+
+            p {
+                color: var(--clr-light);
+                font-weight: bold;
+            }
+
+            i {
+                color: gold;
+            }
+        }
+    }
+
+    &__text {
+        color: var(--clr-light);
+        line-height: 2;
+        font-size: 1.7rem;
+        transition: all .2s ease-in-out;
+
+    }
+
+
+}
+
+// Feedback end 
+

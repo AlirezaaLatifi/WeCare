@@ -31,7 +31,7 @@
         &:hover,
         &:focus {
             color: var(--clr-dark);
-            background-color: transparent;
+            background-color: var(--clr-main-bg);
             box-shadow: inset 0px 0px 0px 2px var(--clr-dark);
         }
 
