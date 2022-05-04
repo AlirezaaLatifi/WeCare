@@ -462,7 +462,7 @@ button {
 }
 .find__title {
   color: var(--clr-dark);
-  font-size: 5rem;
+  font-size: 4rem;
   margin-bottom: 2rem;
 }
 .find__desc {
@@ -543,10 +543,43 @@ button {
     display: none;
   }
 }
-@media (max-width: 500px) {
-  .find__title {
-    font-size: 3.5rem;
-  }
+.specialist {
+  padding: 8rem 0;
+}
+.specialist__title {
+  font-size: 4rem;
+  color: var(--clr-dark);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.specialist__desc {
+  color: var(--clr-light);
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.specialist__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.specialist__card {
+  padding: 2rem;
+  background-color: rgb(230, 237, 240);
+  border-radius: 1rem;
+  text-align: center;
+}
+.specialist__card img {
+  background-color: rgb(214, 214, 214);
+  border-radius: 1rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.specialist__card h3 {
+  color: var(--clr-dark);
+  margin-bottom: 1rem;
+}
+.specialist__card p {
+  color: var(--clr-light);
 }
 
 /*# sourceMappingURL=main.css.map */
