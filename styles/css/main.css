@@ -69,6 +69,10 @@ button {
   gap: var(--gap, 1rem);
 }
 
+.hidden {
+  display: none !important;
+}
+
 .btn {
   padding: 1rem 2rem;
   color: var(--clr-dark);
@@ -465,6 +469,88 @@ button {
     width: 10px;
   }
 }
+.popular {
+  padding: 8rem 0;
+}
+.popular__title {
+  font-size: 4rem;
+  color: var(--clr-dark);
+  margin-bottom: 4rem;
+}
+.popular__box {
+  display: grid;
+  grid-template-columns: 15rem;
+  grid-auto-flow: column;
+  gap: 1rem;
+}
+.popular__tab-item {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--clr-light);
+  cursor: pointer;
+}
+.popular__tab-item--active {
+  color: var(--clr-primary);
+}
+.popular__tab-item:hover, .popular__tab-item:focus {
+  color: var(--clr-dark);
+}
+.popular__tab-item + .popular__tab-item {
+  margin-top: 2rem;
+}
+.popular__content-list {
+  display: none;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  border-left: 2px solid var(--clr-dark);
+  padding-left: 4rem;
+}
+.popular__content-list--active {
+  display: grid;
+}
+.popular__content-item {
+  padding: 3rem 0;
+  display: grid;
+  place-items: center;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 7px 12px -10px #666565;
+  cursor: pointer;
+}
+.popular__content-item img {
+  margin-bottom: 1rem;
+}
+.popular__content-item h3 {
+  color: var(--clr-dark);
+}
+
+@media (max-width: 573px) {
+  .popular__title {
+    font-size: 3.5rem;
+  }
+  .popular__box {
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+  }
+  .popular__tab-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+  }
+  .popular__tab-item {
+    font-size: 1.7rem;
+  }
+  .popular__tab-item + .popular__tab-item {
+    margin: 0;
+  }
+  .popular__content-list {
+    border: none;
+    border-top: 2px solid var(--clr-dark);
+    padding-left: 0;
+    padding-top: 4rem;
+  }
+}
 .find {
   padding: 6rem 0;
 }
@@ -557,6 +643,11 @@ button {
   }
   .find__img {
     display: none;
+  }
+}
+@media (max-width: 500px) {
+  .find__title {
+    font-size: 3.5rem;
   }
 }
 .specialist {

@@ -1,5 +1,133 @@
-//  Find Start
+// popular start
 
+.popular {
+    padding: 8rem 0;
+
+    &__title {
+        font-size: 4rem;
+        color: var(--clr-dark);
+        margin-bottom: 4rem;
+    }
+
+    &__box {
+        display: grid;
+        grid-template-columns: 15rem;
+        grid-auto-flow: column;
+        gap: 1rem;
+
+      
+    }
+
+    &__tab-item {
+        font-size: 2rem;
+        font-weight: bold;
+        color: var(--clr-light);
+        cursor: pointer;
+
+        &--active {
+            color: var(--clr-primary);
+        }
+
+        &:hover,
+        &:focus {
+            color: var(--clr-dark);
+        }
+
+        
+    }
+
+    &__tab-item +  &__tab-item {
+        margin-top: 2rem;
+    }
+
+
+    &__content-list {
+        display: none;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        gap: 1rem;
+        border-left: 2px solid var(--clr-dark);
+        padding-left: 4rem;
+
+        &--active {
+            display: grid;
+        }
+
+    }
+
+    &__content-item {
+        padding: 3rem 0;
+        display: grid;
+        place-items: center;
+        background-color: #fff;
+        border-radius: 1rem;
+        box-shadow: 0 7px 12px -10px #666565;
+        cursor: pointer;
+
+        img {
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            color: var(--clr-dark);
+        }
+    }
+}
+
+@media (max-width: 573px) {
+
+    .popular{
+
+
+        &__title {
+            font-size: 3.5rem;
+        }
+
+        &__box {
+            grid-auto-flow: row;
+            grid-template-columns: 1fr;
+        }
+
+        &__tab-list {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding-bottom: 2rem;
+             
+        }
+
+        &__tab-item {
+            font-size: 1.7rem;
+        }
+        
+        &__tab-item  + &__tab-item{
+            margin: 0;
+        }
+
+
+
+        &__content-list {
+            border: none;
+            border-top: 2px solid var(--clr-dark);
+            padding-left: 0;
+            padding-top: 4rem;
+        }
+
+
+
+    
+    }
+    
+
+}
+
+// popular end
+
+
+
+
+
+
+//  Find Start
 .find {
     padding: 6rem 0;
 
@@ -116,7 +244,6 @@
 
 @media (max-width: 1000px) {
 
-
     .find {
 
         padding-top: 10rem;
@@ -134,14 +261,14 @@
 }
 
 
-// @media (max-width: 500px) {
+@media (max-width: 500px) {
 
 
-//     .find__title {
-//         font-size: 3.5rem;
-//     }
+    .find__title {
+        font-size: 3.5rem;
+    }
 
-// }
+}
 
 // Find End 
 
@@ -202,7 +329,7 @@
 
         &:hover,
         &:focus {
-            
+
             img {
                 transform: scale(1.2);
             }
@@ -217,8 +344,9 @@
 
     }
 
-   
+
 }
+
 // Specialist end 
 
 
@@ -255,7 +383,7 @@
         grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
         place-items: center;
         justify-content: center;
-        
+
         gap: 2rem;
     }
 
@@ -265,6 +393,7 @@
         &:hover,
         &:focus {
             cursor: pointer;
+
             .feedback__text {
                 color: var(--clr-dark);
                 text-shadow: 1px 1px 1px 5px red;
@@ -318,4 +447,3 @@
 }
 
 // Feedback end 
-
