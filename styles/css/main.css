@@ -434,7 +434,7 @@ button {
   content: "";
   width: 0px;
   height: 2px;
-  background-color: rgb(167, 27, 206);
+  background-color: var(--clr-dark);
   position: absolute;
   left: -20px;
   top: 12px;
@@ -563,6 +563,7 @@ button {
   gap: 2rem;
 }
 .specialist__card {
+  cursor: pointer;
   padding: 2rem;
   background-color: rgb(230, 237, 240);
   border-radius: 1rem;
@@ -572,7 +573,7 @@ button {
   background-color: rgb(214, 214, 214);
   border-radius: 1rem;
   margin: 0 auto;
-  margin-bottom: 2rem;
+  transition: all 0.2s ease-in-out;
 }
 .specialist__card h3 {
   color: var(--clr-dark);
@@ -580,6 +581,14 @@ button {
 }
 .specialist__card p {
   color: var(--clr-light);
+}
+.specialist__card:hover img, .specialist__card:focus img {
+  transform: scale(1.2);
+}
+.specialist__img-wrapper {
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
