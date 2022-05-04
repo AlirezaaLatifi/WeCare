@@ -573,7 +573,7 @@ button {
   background-color: rgb(214, 214, 214);
   border-radius: 1rem;
   margin: 0 auto;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .specialist__card h3 {
   color: var(--clr-dark);
