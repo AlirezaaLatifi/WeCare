@@ -657,12 +657,16 @@ button {
   background-color: #fff;
   border-radius: 1rem;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 .popular__content-item img {
   margin-bottom: 1rem;
 }
 .popular__content-item h3 {
   color: var(--clr-dark);
+}
+.popular__content-item:hover, .popular__content-item:focus {
+  box-shadow: 0px 18px 23px -14px #ddd;
 }
 
 @media (max-width: 573px) {
