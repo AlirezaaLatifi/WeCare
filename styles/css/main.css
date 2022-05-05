@@ -337,7 +337,6 @@ button {
 }
 @media (max-width: 750px) {
   .newsletter__box {
-    margin-left: 0;
     padding: 4rem 2rem;
   }
 }
@@ -514,7 +513,6 @@ button {
   place-items: center;
   background-color: #fff;
   border-radius: 1rem;
-  box-shadow: 0 7px 12px -10px #666565;
   cursor: pointer;
 }
 .popular__content-item img {
@@ -650,6 +648,52 @@ button {
     font-size: 3.5rem;
   }
 }
+.why {
+  background-color: var(--clr-secondary);
+  padding: 7rem 0;
+}
+.why__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  place-items: center;
+  gap: 3rem;
+}
+.why__img img {
+  width: 55rem;
+}
+.why__title {
+  font-size: 4rem;
+  color: var(--clr-dark);
+  margin-bottom: 1rem;
+}
+.why__desc {
+  color: var(--clr-light);
+  margin-bottom: 3rem;
+}
+.why__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.why__item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: black;
+  font-weight: bold;
+}
+.why__item img {
+  border-radius: 2rem;
+  height: 30px;
+  background-color: #fff;
+}
+.why__item:hover, .why__item:focus {
+  transform: translateX(1.5rem);
+}
+
 .specialist {
   padding: 8rem 0;
 }
@@ -725,7 +769,10 @@ button {
   grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
   place-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
+}
+.feedback__box > img {
+  width: 80%;
 }
 .feedback__content:hover, .feedback__content:focus {
   cursor: pointer;

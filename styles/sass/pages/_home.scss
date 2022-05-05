@@ -60,7 +60,6 @@
         place-items: center;
         background-color: #fff;
         border-radius: 1rem;
-        box-shadow: 0 7px 12px -10px #666565;
         cursor: pointer;
 
         img {
@@ -275,6 +274,83 @@
 
 
 
+// Why start
+
+.why {
+    background-color: var(--clr-secondary);
+    padding: 7rem 0;
+
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+        place-items: center;
+        gap: 3rem;
+    }
+
+    &__img {
+        
+        img {
+            width: 55rem;
+        }
+    }
+
+
+    &__title {
+        font-size: 4rem;
+        color: var(--clr-dark);
+        margin-bottom: 1rem;
+    }
+
+    &__desc {
+        color: var(--clr-light);
+        margin-bottom: 3rem;
+    }
+
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    &__item {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        color: black;
+        font-weight: bold;
+        
+        img {
+            border-radius: 2rem;
+            height: 30px;
+            background-color: #fff;
+        }
+        
+
+        &:hover,
+        &:focus {
+            transform: translateX(1.5rem);
+        }
+    }
+}
+
+
+// why end
+
+
+
+
+
+
+
+
+
+
+
 // Specialist Start 
 
 .specialist {
@@ -352,6 +428,8 @@
 
 
 
+
+
 // Feedback start
 
 .feedback {
@@ -383,9 +461,13 @@
         grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
         place-items: center;
         justify-content: center;
+        gap:4rem;
 
-        gap: 2rem;
+        > img {
+           width: 80%;
+        }
     }
+    
 
 
     &__content {
