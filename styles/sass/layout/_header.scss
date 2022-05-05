@@ -52,24 +52,170 @@
 }
 
 .hero {
-    display: flex;
-    justify-content: space-between;
-    gap: 5rem;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 45% 55%;
+
+    @media (max-width: 1000px) {
+        grid-template-columns: 1fr;
+    }
 
     &__img {
-        width: 60%;
+        position: relative;
+        justify-self: center;
         align-self: flex-end;
+
+        img {
+            width: 52rem;
+            position: relative;
+            z-index: 2;
+
+        }
+
+        i {
+            color: var(--clr-primary);
+        }
+
+        &-circle-1 {
+            position: absolute;
+            top: -14rem;
+            left: 0rem;
+            width: 49rem;
+            height: 49rem;
+            border-radius: 100rem;
+            background-color: transparent;
+            border: 1px dashed rgb(117, 117, 117);
+            z-index: 1;
+            transform: rotate(0deg);
+            animation: rotate 20s infinite linear forwards;
+
+            .hero__img-icon-11 {
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                border-radius: 10rem;
+                background-color: rgb(255, 255, 255);
+                position: absolute;
+                top: 4rem;
+                left: 7rem;
+                display: grid;
+                place-items: center;
+                animation: rotateBack 20s infinite linear forwards;
+
+            }
+
+            .hero__img-icon-12 {
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                border-radius: 10rem;
+                background-color: rgb(255, 255, 255);
+                position: absolute;
+                top: 34rem;
+                left: 44rem;
+                display: grid;
+                place-items: center;
+                animation: rotateBack 20s infinite linear forwards;
+
+            }
+
+        }
+
+        &-circle-2 {
+            position: absolute;
+            top: -8rem;
+            left: 6rem;
+            width: 37rem;
+            height: 37rem;
+            border-radius: 100rem;
+            background-color: transparent;
+            border: 1px dashed rgb(117, 117, 117);
+            z-index: 1;
+            animation: rotateBack 40s infinite linear forwards;
+
+
+            .hero__img-icon-21 {
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                border-radius: 10rem;
+                background-color: rgb(255, 255, 255);
+                position: absolute;
+                top: 23rem;
+                left: -1rem;
+                display: grid;
+                place-items: center;
+                animation: rotate 40s infinite linear forwards;
+
+            }
+
+            .hero__img-icon-22 {
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                border-radius: 10rem;
+                background-color: rgb(255, 255, 255);
+                position: absolute;
+                top: 4rem;
+                left: 30rem;
+                display: grid;
+                place-items: center;
+                animation: rotate 40s infinite linear forwards;
+
+            }
+
+        }
+
+        &-circle-3 {
+            position: absolute;
+            top: -1rem;
+            left: 13rem;
+            width: 23rem;
+            height: 23rem;
+            border-radius: 100rem;
+            background-color: transparent;
+            border: 1px dashed rgb(117, 117, 117);
+            z-index: 1;
+            animation: rotate 40s infinite linear forwards;
+
+
+            .hero__img-icon-31 {
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                border-radius: 10rem;
+                background-color: rgb(255, 255, 255);
+                position: absolute;
+                top: 0rem;
+                left: 3rem;
+                display: grid;
+                place-items: center;
+                animation: rotateBack 40s infinite linear forwards;
+
+            }
+
+            .hero__img-icon-32 {
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                border-radius: 10rem;
+                background-color: rgb(255, 255, 255);
+                position: absolute;
+                top: 18rem;
+                left: 17rem;
+                display: grid;
+                place-items: center;
+                animation: rotateBack 40s infinite linear forwards;
+
+            }
+        }
 
         @media (max-width: 1000px) {
             display: none;
         }
-
-      
     }
 
     &__content {
-        max-width: 40%;
+        max-width: 90%;
         min-width: 37.5rem;
         padding: 5rem 0;
         display: flex;
@@ -144,11 +290,33 @@
     }
 
 
-.navbar {
- gap: 1rem;
-}
+    .navbar {
+        gap: 1rem;
+    }
 
 
 }
 
 
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@keyframes rotateBack {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
