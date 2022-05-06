@@ -21,21 +21,28 @@
         <div class="container">
             <div class="navbar">
                 <a href="#"><img class="header__logo" src="assets/WeCare-Logo.png" alt="website's logo"></a>
+
                 <div class="responsive-menu">
-                    <input class="responsive-menu__toggle" type="checkbox" name="" id="">
-                    <button class="responsive-menu__btn"><i class="fa-solid fa-bars"></i></button>
-                    <nav class="nav">
-                        <ul class="nav__list">
-                            <li class="nav__item"><a href="#" class="nav__link">Find a Doctor</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">Find a Hospital</a></li>
-                            <li class="nav__item"><a href="#" class="nav__link">Health A to Z</a></li>
-                        </ul>
-                    </nav>
+                    <input class="responsive-menu__checkbox" type="checkbox" name="" id="menu-toggle">
+                    <label class="responsive-menu__label" for="menu-toggle"></label>
+                    <div class="overlay hidden"></div>
+                    <div class="responsive-menu__container">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item"><a href="#" class="nav__link">Find a Doctor</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">Find a Hospital</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">Health A to Z</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__ctas">
+                            <a class="btn" href="#">Log in</a>
+                            <a class="btn btn--primary" href="#">Sign in</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="header__ctas">
-                    <a class="btn" href="#">Log in</a>
-                    <a class="btn btn--primary" href="#">Sign in</a>
-                </div>
+
+
+
             </div>
             <div class="hero">
                 <div class="hero__content">

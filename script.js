@@ -1,10 +1,34 @@
 "use strict";
 
 
+
+//  Responsive Menue
+const hamburgerBtn = document.querySelector('.responsive-menu__label');
+const checkboxBtn = document.querySelector('.responsive-menu__checkbox');
+const overlayEl = document.querySelector('.overlay');
+const bodyEl = document.querySelector('body');
+
+
+hamburgerBtn.addEventListener('click', () => {
+    overlayEl.classList.toggle('hidden');
+    bodyEl.classList.toggle('no-scroll');
+});
+
+
+overlayEl.addEventListener('click', function () {
+    checkboxBtn.click();
+    bodyEl.classList.toggle('no-scroll');
+    overlayEl.classList.add('hidden')
+
+});
+
+
+
+
+
+//  Popular Item tabs
 const popularTabList = document.querySelectorAll('.popular__tab-item');
-
 const popularContentList = document.querySelectorAll('.popular__content-list');
-
 
 
 popularTabList.forEach( (item, index) => {
@@ -23,3 +47,5 @@ popularTabList.forEach( (item, index) => {
 
     });
 });
+
+

@@ -11,5 +11,10 @@
 }
 
 .hidden {
-    display: none!important;
+    visibility: hidden;
+}
+
+.no-scroll {
+    height: 100%;
+    overflow: hidden;
 }
