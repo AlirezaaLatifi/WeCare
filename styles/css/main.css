@@ -825,6 +825,24 @@ button {
 .find__img, .find__content {
   width: 100%;
 }
+.find__img {
+  position: relative;
+}
+.find__img img {
+  width: 100%;
+}
+.find__img::before {
+  content: "";
+  width: 77%;
+  height: 62%;
+  position: absolute;
+  z-index: -1;
+  top: 4rem;
+  left: 5rem;
+  background-color: var(--clr-secondary);
+  transform: rotate(-45deg);
+  border-radius: 20rem 24rem 41rem 25rem;
+}
 .find__title {
   color: var(--clr-dark);
   font-size: 4rem;
@@ -923,8 +941,23 @@ button {
   place-items: center;
   gap: 3rem;
 }
+.why__img {
+  position: relative;
+  z-index: 1;
+}
 .why__img img {
   width: 55rem;
+}
+.why__img::before {
+  content: "";
+  width: 77%;
+  height: 92%;
+  position: absolute;
+  z-index: -1;
+  top: 4rem;
+  left: 0rem;
+  background-color: var(--clr-secondary);
+  border-radius: 25rem 6rem 6rem 6rem;
 }
 .why__title {
   font-size: 4rem;

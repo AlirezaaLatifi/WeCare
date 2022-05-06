@@ -15,7 +15,7 @@
         grid-auto-flow: column;
         gap: 1rem;
 
-      
+
     }
 
     &__tab-item {
@@ -33,10 +33,10 @@
             color: var(--clr-dark);
         }
 
-        
+
     }
 
-    &__tab-item +  &__tab-item {
+    &__tab-item+&__tab-item {
         margin-top: 2rem;
     }
 
@@ -80,7 +80,7 @@
 
 @media (max-width: 573px) {
 
-    .popular{
+    .popular {
 
 
         &__title {
@@ -97,14 +97,14 @@
             align-items: center;
             justify-content: space-around;
             padding-bottom: 2rem;
-             
+
         }
 
         &__tab-item {
             font-size: 1.7rem;
         }
-        
-        &__tab-item  + &__tab-item{
+
+        &__tab-item+&__tab-item {
             margin: 0;
         }
 
@@ -119,9 +119,9 @@
 
 
 
-    
+
     }
-    
+
 
 }
 
@@ -148,6 +148,30 @@
     &__content {
         width: 100%;
     }
+
+    &__img {
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+
+        &::before {
+            content: "";
+            width: 77%;
+            height: 62%;
+            position: absolute;
+            z-index: -1;
+            top: 4rem;
+            left: 5rem;
+            background-color: var(--clr-secondary);
+            transform: rotate(-45deg);
+            border-radius: 20rem 24rem 41rem 25rem;
+        }
+
+    }
+
 
     &__title {
         color: var(--clr-dark);
@@ -295,9 +319,23 @@
     }
 
     &__img {
-        
+        position: relative;
+        z-index: 1;
+
         img {
             width: 55rem;
+        }
+
+        &::before {
+            content: "";
+            width: 77%;
+            height: 92%;
+            position: absolute;
+            z-index: -1;
+            top: 4rem;
+            left: 0rem;
+            background-color: var(--clr-secondary);
+            border-radius: 25rem 6rem 6rem 6rem;
         }
     }
 
@@ -329,13 +367,13 @@
         transition: all .3s ease-in-out;
         color: black;
         font-weight: bold;
-        
+
         img {
             border-radius: 2rem;
             height: 30px;
             background-color: #fff;
         }
-        
+
 
         &:hover,
         &:focus {
@@ -467,13 +505,13 @@
         grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
         place-items: center;
         justify-content: center;
-        gap:4rem;
+        gap: 4rem;
 
-        > img {
-           width: 80%;
+        >img {
+            width: 80%;
         }
     }
-    
+
 
 
     &__content {
