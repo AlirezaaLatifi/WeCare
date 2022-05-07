@@ -147,12 +147,13 @@ button {
 
 .nav__list {
   display: flex;
-  gap: 1.5rem;
+  gap: 3rem;
 }
 
 .nav__link {
   color: var(--clr-dark);
   transition: color 0.2s ease-in-out;
+  font-weight: bold;
 }
 
 .nav__link:hover,
