@@ -1,11 +1,11 @@
 # Wecare 
 It's a single responsive web page of a healthcare website.
 
-Design on Dribble : http://tinyurl.com/5b36p87u 
+Dribble: http://tinyurl.com/5b36p87u 
 
 ## Screenshots
 
-![wecare](https://user-images.githubusercontent.com/92823582/176990979-63bbc0a9-0aa3-416a-94b2-148cf9f3c005.png)
+![wecare](https://user-images.githubusercontent.com/92823582/176991103-cbcfff97-23cf-429b-a01a-1def419639ad.png)
 
 
 ## Lessons Learned
