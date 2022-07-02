@@ -5,7 +5,7 @@ Design on Dribble : http://tinyurl.com/5b36p87u
 
 ## Screenshots
 
-![wecare](https://user-images.githubusercontent.com/92823582/176990655-5b82ae3c-4f77-4652-8b36-a4dd77179406.png)
+![wecare](https://user-images.githubusercontent.com/92823582/176990979-63bbc0a9-0aa3-416a-94b2-148cf9f3c005.png)
 
 
 ## Lessons Learned
@@ -24,3 +24,4 @@ https://wecare-alireza-latifi.netlify.app/
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/alir3za_latifi) 
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aalirezalatifi/)
+
