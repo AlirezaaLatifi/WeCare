@@ -10,9 +10,9 @@ Dribble: http://tinyurl.com/5b36p87u
 
 ## Lessons Learned
 
-I used Sass and  CSS Animation for the first time and also tried reinforcing layout-related skills such as Normal flow, Flexbox, Grid, and Positions.
+I used Sass and CSS Animation for the first time and also tried reinforcing layout-related skills such as Normal flow, Flexbox, Grid, and Positions.
 
-It was really awsome to use grid column with auto-fit  and minmax functions to make layout responsive without using any media query! 😍
+It was awesome to use grid column with auto-fit and minmax functions to make layout responsive without using any media query! 😍
 
 
 ## Demo
