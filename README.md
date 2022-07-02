@@ -6,9 +6,17 @@ It's a single responsive web page of a sample healthcare website's [design on th
 ![wecare](https://user-images.githubusercontent.com/92823582/176991103-cbcfff97-23cf-429b-a01a-1def419639ad.png)
 
 
+## I was focused on 
+
+- Layout / Responsive Design
+- Sass
+- BEM
+- CSS Animation
+
+
 ## Lessons Learned
 
-I used Sass and CSS Animation for the first time and also tried reinforcing layout-related skills such as Normal flow, Flexbox, Grid, and Positions.
+I used Sass and CSS Animation for the first time and also tried to stick to BEM principles, and reinforcing layout-related skills such as Normal flow, Flexbox, Grid, and Positions.
 
 It was awesome to use grid column with auto-fit and minmax functions to make layout responsive without using any media query! 😍
 
