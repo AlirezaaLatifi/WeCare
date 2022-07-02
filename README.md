@@ -1,6 +1,5 @@
 # Wecare 
-It's a single responsive web page of a healthcare website.
-
+It's a single responsive web page of a healthcare website design, developed for training purposes.
 Dribble: http://tinyurl.com/5b36p87u 
 
 ## Screenshots
