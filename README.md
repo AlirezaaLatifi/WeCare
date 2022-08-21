@@ -30,4 +30,4 @@ https://wecare-alireza-latifi.netlify.app/
 
 - l.alirezalatifi@gmail.com
 - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alirezalatifi/)
-- [![Gmail](https://img.shields.io/badge/gmail-0A66C2?style=for-the-badge&logo=gmail&logoColor=white)](l.alirezalatigi@gmail.com)
+- [![Gmail | dsad](https://img.shields.io/badge/gmail-0A66C2?style=for-the-badge&logo=gmail&logoColor=red)]
