@@ -28,6 +28,5 @@ https://wecare-alireza-latifi.netlify.app/
 
 ## Contact Me
 
-- l.alirezalatifi@gmail.com
-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alirezalatifi/)
-- [![Gmail | dsad](https://img.shields.io/badge/gmail-0A66C2?style=for-the-badge&logo=gmail&logoColor=red)]
+l.alirezalatifi@gmail.com
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alirezalatifi/)
