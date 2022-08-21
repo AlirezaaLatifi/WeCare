@@ -17,8 +17,7 @@ It's a single responsive web page of a sample healthcare website's [design on th
 
 ## Lessons Learned
 
-I used Sass and CSS Animation for the first time and also tried to stick to BEM principles, and reinforcing layout-related skills such as Normal flow, Flexbox, Grid, and Positions.
-
+I used Sass and CSS Animation for the first time and also tried to stick to BEM principles, and reinforcing layout-related skills such as normal flow, flexbox, grid, and positions.
 It was awesome to use grid column with auto-fit and minmax functions to make layout responsive without using any media query! 😍
 
 
@@ -29,6 +28,6 @@ https://wecare-alireza-latifi.netlify.app/
 
 ## Contact Me
 
-Gmail : l.alirezalatifi@gmail.com
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aalirezalatifi/)
-
+- l.alirezalatifi@gmail.com
+- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alirezalatifi/)
+- [![Gmail](https://img.shields.io/badge/gmail-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](l.alirezalatigi@gmail.com)
