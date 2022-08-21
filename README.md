@@ -1,4 +1,5 @@
 # Wecare 
+
 It's a single responsive web page of a sample healthcare website's [design on the dribble](https://dribbble.com/shots/16148550-Medical-Website-Landing-Page-Redesign/attachments/8003722?mode=media), developed for training purposes.
 
 ## Screenshots
@@ -22,12 +23,12 @@ It was awesome to use grid column with auto-fit and minmax functions to make lay
 
 
 ## Demo
+
 https://wecare-alireza-latifi.netlify.app/
 
 
-## My Social Medias
+## Contact Me
 
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/alir3za_latifi) 
-
+Gmail : l.alirezalatifi@gmail.com
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aalirezalatifi/)
 
