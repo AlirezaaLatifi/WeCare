@@ -1,6 +1,6 @@
 # Wecare 
 
-It's a single responsive web page of a sample healthcare website's [design on the dribble](https://dribbble.com/shots/16148550-Medical-Website-Landing-Page-Redesign/attachments/8003722?mode=media), developed for training purposes.
+It's a single responsive web page of a sample healthcare website's [design on the dribble](https://dribbble.com/shots/16148550-Medical-Website-Landing-Page-Redesign/attachments/8003722?mode=media), _developed for training purposes._
 
 ## Screenshots
 
